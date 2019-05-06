@@ -23,7 +23,7 @@ public class ServiceGenerator {
 //	private static SharedPreferences preferences = Application.getPreferences();
     private static Session session = Application.provideSession();
 
-	private static final String BASE_URL = "https://todo.dhanifudin.com/";
+	private static final String BASE_URL = "https://todo.dhanifudin.com/";;
 
 	private static Retrofit.Builder builder = new Retrofit.Builder()
 		.baseUrl(BASE_URL)
